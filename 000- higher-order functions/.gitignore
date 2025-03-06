@@ -1,0 +1,53 @@
+# Binaries and Build Artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+
+# Go Build Cache
+/bin/
+/pkg/
+
+# Temporary Files
+*.tmp
+*.log
+*.bak
+*.swp
+*~
+
+# Editor and IDE Specific Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency Management
+vendor/          # Ignore the vendor directory if using Go modules
+Gopkg.lock       # If using dep for dependency management
+Gopkg.toml
+
+# Go Module Files (Optional)
+# Uncomment the following lines if you want to ignore specific module-related files
+# go.sum
+# go.mod
+
+# Environment-Specific Files
+.env
+.env.local
+.env.*.local
+
+# Test and Coverage Reports
+*.test
+*.out
+coverage.txt
+profile.out
+
+# Operating System Generated Files
+.DS_Store
+Thumbs.db
+
+# CI/CD Artifacts
+/build/
+/dist/
